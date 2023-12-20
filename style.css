@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: xxx-large;
+    font-weight: 900;
+    color: hsl(243, 87%, 12%)
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+    font-size: large;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    width: 50%;
+}
+
+
+section div:nth-child(1) {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div:nth-child(1) > * {
+    padding-top: 30px;
+}
+section div:nth-child(1) > p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 12px 50px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+nav {
+    padding: 50px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+a img {
+    padding: 0px !important;
+    width: auto !important;
+}
+
+section {
+    display: flex;
+}
+
+section div img {
+    padding: 50px;
+}
+.shfw {
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
+footer {
+    background-color: hsl(243, 87%, 12%);
+}
+footer div {
+    color: white;padding: 5%;
+}
+footer div  > * { 
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}
